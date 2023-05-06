@@ -6,4 +6,7 @@ export const styles = StyleSheet.create({
     height: 75,
     top: -15,
   },
+  flatListContentContainer: {
+    paddingHorizontal: 5,
+  },
 });
