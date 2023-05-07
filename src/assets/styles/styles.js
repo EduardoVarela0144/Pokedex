@@ -8,7 +8,6 @@ export const styles = StyleSheet.create({
   },
   flatListContentContainer: {
     paddingHorizontal: 5,
-    //marginTop: 65,
   },
   card: {
     flex: 1,
@@ -42,5 +41,9 @@ export const styles = StyleSheet.create({
     right: 2,
     width: 90,
     height: 90,
+  },
+  spinner: {
+    marginTop: 20,
+    marginBottom: 60,
   },
 });
