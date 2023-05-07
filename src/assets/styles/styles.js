@@ -84,4 +84,17 @@ export const styles = StyleSheet.create({
     marginTop: 20,
     marginBottom: 60,
   },
+  contentType: {
+    padding: 20,
+    marginTop: 50,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  pill: {
+    paddingHorizontal: 30,
+    paddingVertical: 5,
+    borderRadius: 20,
+    marginHorizontal: 10,
+  },
 });
