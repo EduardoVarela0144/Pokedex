@@ -2,7 +2,7 @@ import { StyleSheet, Platform } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
-    marginTop: Platform.OS === "ios" ? -30 : 15,
+    marginTop: Platform.OS === "ios" ? -30 : 20,
   },
   pokeball: {
     width: 75,
@@ -32,11 +32,46 @@ export const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 11,
   },
+  number_single: {
+    color: "#fff",
+    fontSize: 27,
+  },
   name: {
     color: "#fff",
     fontWeight: "bold",
     fontSize: 15,
     paddingTop: 10,
+  },
+  name_single: {
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 27,
+  },
+  bg: {
+    width: "100%",
+    height: 500,
+    position: "absolute",
+    borderBottomEndRadius: 300,
+    borderBottomLeftRadius: 300,
+    transform: [{ scaleX: 2 }],
+  },
+  content: { marginHorizontal: 20, marginTop: 30 },
+  header: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    paddingTop: 40,
+  },
+  contentImg: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    top: 0,
+  },
+  image_single: {
+    width: 250,
+    height: 300,
+    resizeMode: "contain",
   },
   image: {
     position: "absolute",
