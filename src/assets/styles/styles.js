@@ -97,4 +97,45 @@ export const styles = StyleSheet.create({
     borderRadius: 20,
     marginHorizontal: 10,
   },
+  content_stats: {
+    paddingHorizontal: 20,
+    marginBottom: 60,
+    marginTop: 10,
+  },
+  title_stats: {
+    fontWeight: "bold",
+    fontSize: 20,
+    paddingBottom: 5,
+  },
+  block: {
+    flexDirection: "row",
+    paddingVertical: 5,
+  },
+  blockTitle: {
+    width: "40%",
+  },
+  info_stats: {
+    fontSize: 12,
+    color: "#6b6b6b",
+  },
+  block_info: {
+    width: "60%",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  number_stats: {
+    width: "14%",
+    fontSize: 12,
+  },
+  bgBar: {
+    backgroundColor: "#dedede",
+    width: "86%",
+    height: 5,
+    borderRadius: 20,
+    overflow: "hidden",
+  },
+  bar: {
+    height: 5,
+    borderRadius: 20,
+  },
 });
