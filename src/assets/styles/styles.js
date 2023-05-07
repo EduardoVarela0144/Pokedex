@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
   },
   flatListContentContainer: {
     paddingHorizontal: 5,
-    marginTop: 65,
+    //marginTop: 65,
   },
   card: {
     flex: 1,
@@ -19,7 +19,9 @@ export const styles = StyleSheet.create({
     padding: 5,
   },
   bgStyles: {
-    backgroundColor: "grey",
+    flex: 1,
+    borderRadius: 15,
+    padding: 10,
   },
   number: {
     position: "absolute",

@@ -28,7 +28,8 @@ export default function Navigation() {
         options={{
           title: "",
           tabBarIcon: () => renderPokeBall(),
-          headerTitle: "Pokedex",
+          //headerTitle: "Pokedex",
+          headerTransparent: true,
         }}
       />
       <Tab.Screen
