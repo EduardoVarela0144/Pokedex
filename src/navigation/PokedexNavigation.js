@@ -16,7 +16,7 @@ export default function AccountNavigation() {
       <Stack.Screen
         name="Pokemon Screen"
         component={Pokemon}
-        options={{ title: "", headerTransparent: true }}
+        options={{ title: "", headerShown: false }}
       />
     </Stack.Navigator>
   );
