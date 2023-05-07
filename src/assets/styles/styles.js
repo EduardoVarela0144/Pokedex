@@ -1,6 +1,9 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Platform } from "react-native";
 
 export const styles = StyleSheet.create({
+  container: {
+    marginTop: Platform.OS === "ios" ? -30 : 15,
+  },
   pokeball: {
     width: 75,
     height: 75,

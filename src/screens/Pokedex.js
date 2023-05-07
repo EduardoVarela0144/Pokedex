@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { SafeAreaView, Alert } from "react-native";
 import { getPokemonsApi, getPokemonDetailByUrlApi } from "../api/pokemon";
 import PokemonList from "../components/PokemonList";
-import { set } from "lodash";
+import { styles } from "../assets/styles/styles";
 
 export default function Pokedex() {
   const [pokemons, setPokemons] = useState([]);
@@ -34,7 +34,7 @@ export default function Pokedex() {
     }
   };
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.container}>
       <PokemonList
         pokemons={pokemons}
         loadPokemons={loadPokemons}
